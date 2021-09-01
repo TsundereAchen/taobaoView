@@ -465,15 +465,138 @@
 /* .firstLeft .img2Box .text .bg{
    background-image: ;
 } */
-/* 图片1容器 */
+/* 淘宝头条 */
 .firstLeft .news{
     width: 890px;
     height: 100px;
-    background-color: #999;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
 }
+.firstLeft .imtemImg {
+    width: 130px;
+    height: 73px;
+    margin-right: 15px;
+}
+.firstLeft .news .hd {
+    margin-top: 15px;
+}
+.firstLeft .news .hd h3{
+    background: url(../images/pic_04.jpg) center no-repeat;
+    width: 129px;
+    height: 26px;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.firstLeft .news .hd p {
+    color: #999;
+    line-height: 24px;
+}
+.firstLeft .news .newList {
+    width: 680px;
+    position: relative;
+}
+.firstLeft .news .newList  h4 {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.firstLeft .news .newList  h4 a {
+    color:#333
+}
+.firstLeft .news .newList  h4 a:hover,.firstLeft .news .newList .more:hover{
+    color: #ff5000;
+}
+.firstLeft .news .newList  p  {
+    line-height: 18px;
+    font-size: 14px;
+}
+.firstLeft .news .newList  p a {
+    color: #999;
+
+}
+.firstLeft .news .newList .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+}
+
 /* 右边的内容 */
 .firstRight{
     width: 290px;
-    height: 621px;
-    background-color: #9c9c9c;
+    margin-top: 10px;
+}
+
+.firstRight .user {
+    height: 132px;
+    padding-top: 3px;
+}
+.firstRight .user .avatar {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.firstRight .user .userName {
+    text-align: center;
+    line-height: 16px;
+}
+.firstRight .user .members {
+  text-align: center;
+  font-size: 0px;
+}
+
+.firstRight .user .members a {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 9px;
+    /* background-color: #ffe4dc; */
+    padding: 0px 10px 0px 20px;
+    margin:0 2px;
+}
+.firstRight .user .members a.gold {
+    background: #ffe4dc url(../images/icon.png) 0 -572px no-repeat;
+}
+.firstRight .user .members a.club {
+    background: #ffe4dc url(../images/icon.png) 0 -528px no-repeat;
+}
+.firstRight .user .btn {
+    text-align: center;
+}
+.firstRight .user .btn button{
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    margin: 12px 2px 0px 2px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to right,#ff9000,#ff5000);
+}
+.firstRight .user .btn .login{
+    width: 94px;
+}
+.firstRight .tipOff {
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    height: 26px;
+    color:#f40;
+    background-color: #ffe4dc;
+}
+.firstRight .tipOff i {
+    font-size: 12px;
+    vertical-align: 2px;
+    left: 30px;
+    position: relative;
+}
+.firstRight .tipOff span {
+    vertical-align: 1px;
 }
