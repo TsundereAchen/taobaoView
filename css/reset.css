@@ -27,6 +27,12 @@ input,button{
 button{
     outline: none;
 }
+table {
+    border-collapse: collapse; /* 边框模式，合并的模式 */
+}
+th,td {
+    padding: 0;
+}
 body{
     color: #3c3c3c;
     background-color: #f4f4f4;

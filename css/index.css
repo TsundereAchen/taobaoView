@@ -600,3 +600,244 @@
 .firstRight .tipOff span {
     vertical-align: 1px;
 }
+/** 公告区 */
+.firstRight .notice {
+    height: 51px;
+    background-color: #fff;
+}
+.firstRight .notice .title {
+    width: 276px;
+    height: 24px;
+    padding: 0 8px; 
+    margin:  0 auto;
+}
+.firstRight .notice .title li {
+   float: left;
+   text-align: center;
+   width: 32px;
+   line-height: 20px;
+   margin: 0 11px;
+}   
+.firstRight .notice .title li a {
+    font-weight: 700;    
+}
+.firstRight .notice .title li a:hover{
+    color: #f40;
+}
+.firstRight .notice .title li.active{
+    border-bottom: 2px solid #f40;   
+}
+.firstRight .notice .content {
+    text-align: center;
+}
+.firstRight .notice .content li {
+    margin: 0 12px;
+    padding: 6px 0;   
+    line-height: 25px;
+    font-weight: 700;
+}
+.firstRight .notice .content li a:hover {
+   color: #f40;
+}
+/* 图标区域 */
+.firstRight .icon {
+    width: 100%;
+    height: 231px;
+    background-color: #fff;
+    /* 定义列宽的算法 fixed计算方式根据表格宽度自动计算列宽，每列的宽度均分表格的宽度*/
+    table-layout: fixed; 
+}
+.firstRight .icon td {
+    border: 1px solid #f4f4f4;
+    text-align: center;
+}
+.firstRight .icon td span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icon.png) no-repeat;
+    margin: 0 auto;
+}
+.firstRight .icon td i {
+    line-height: 24px;
+}
+.firstRight .icon td.item1 span{
+    background-position: 0 0;
+}
+.firstRight .icon td.item2 span{
+    background-position: 0 -87px;
+}
+.firstRight .icon td.item3 span{
+    background-position: 0 -174px;
+}
+.firstRight .app{
+    padding: 1px 0 0 0;
+    width: 290px;
+    height: 76px;
+    background-color: #fff;
+}
+.firstRight .app .apps_J_Apps {
+    position: relative;
+}
+.firstRight .app .title{
+    line-height: 30px;
+    height: 30px;
+    padding-left: 14px;
+    font-size: 14px;
+    position: relative;
+}
+.firstRight .app .title a{
+    line-height: 30px;
+    height: 30px;
+    right: 10px;
+    font-size: 12px;
+    position: absolute;
+    font-weight: 400;
+}
+.firstRight .app .appicon img {
+    width: 32px;
+    height: 32px;
+}
+.firstRight .app .appicon {
+    padding: 0 0 0 23px;
+    width: 267px;
+    height: 44px;
+}
+.firstRight .app .appicon li {
+    float: left;
+    margin: 0 21px 8px 0;
+}  
+
+/*-- 有好货 --*/
+.layerInner {
+    padding-top: 10px;
+    background-color: #fff;
+    height: 330px;
+}
+.layerInner h3  {
+    padding-left: 20px;
+    margin: 20px 0;
+    display: block;
+    width: 1190px;
+    box-sizing: border-box;
+}
+ .layerInner h3 span{
+    color: #111;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.layerInner h3 img {
+    height: 20px;
+    margin: 4px 0 0 6px;
+    border: 0;
+}
+.list {
+    text-align: center;
+    font-size: 0;
+}
+.list li {
+    display: inline-block;
+    width: 215px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.list li .a-all {
+    width: 215px;
+    height: 215px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+.list li .a-all img {
+    width: 215px;
+    height: 215px;
+    border-radius: 12px;
+    opacity: .9;
+    background-color: #fff;
+}
+.list li .a-all .mask {
+    width: 215px;
+    height: 215px;
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: .2;
+}
+.list li .info {
+    padding: 0 4px 0 6px;
+}
+.list li .info h4 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+    font-weight: normal;
+    width: 198px;
+    margin-top: 10px;
+    text-align: left;
+}
+.list li .info h4:hover {
+    color: #f40;
+}
+.list li .info p {
+    font-size: 14px;
+    color: #999;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 182px;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+/*-- 右侧固定定位导航 --*/
+#tool { 
+    top: 100px;
+    right: 100px;
+    position: fixed;
+    width: 50px;
+    height: 200px;
+}
+#tool span {
+    position: absolute;
+    font-size: 32px;
+    line-height: 36px;
+    height: 36px;
+    color: #ff7f13;
+    text-align: center;
+    height: 36px;
+    width: 50px;
+    top: -28px;
+}
+#tool .btn {
+    height: 200px;
+    border-radius: 8px;
+}
+#tool .btn a {
+    display: block;
+    height: 40px;
+    width: 34px;
+    padding: 10px 8px 0 8px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
+#tool .btn a.a-a1{
+    font-size: 13px;
+}
+#tool .btn a.a-a2 {
+    line-height: 30px;
+}
+#tool .btn a:hover,#tool .btn .active {
+    background-image: -webkit-linear-gradient(
+        135deg
+        ,#ff971b,#ff5000);
+            background-image: -o-linear-gradient(135deg,#ff971b,#ff5000);
+            background-image: linear-gradient(
+        135deg
+        ,#ff971b,#ff5000);
+    color: #fff;
+    font-weight: 700;
+}
